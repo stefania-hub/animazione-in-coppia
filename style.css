@@ -1,0 +1,87 @@
+body{
+   background-color: black;
+   display: flex;
+   height: 100vh;
+   column-gap: 2px;
+   justify-content:2px ;
+   align-items:flex-end ;
+
+
+}
+html,body{
+margin: 0;
+padding: 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 10vw;
+    flex-grow: 1;
+    background-color: white;
+
+    animation-name: translate;
+     animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes translate {
+    0%{
+        transform: translate(0px,0vh) scale(1);
+
+    }
+    /* 33%{
+         transform: translate(0px,33px);
+
+    }
+    66%{
+         transform: translate(0px,66px);
+
+    } */
+    100%{
+        transform: translate(0px, -100vh) scale(0.1);
+
+    }
+
+    
+
+}
+
+.delay1{
+    animation-delay: 0.2s;
+}
+
+.delay2{
+    animation-delay: 0.3s;
+}
+
+.delay3{
+    animation-delay: 0.4s;
+}
+
+.delay4{
+    animation-delay: 0.5s;
+}
+
+.delay5{
+    animation-delay: 0.6s;
+}
+
+.delay6{
+    animation-delay: 0.7s;
+}
+.delay7{
+    animation-delay: 0.8s;
+}
+.delay8{
+    animation-delay: 0.9s;
+}
+.delay9{
+    animation-delay: 1.0s;
+}
+.delay10{
+    animation-delay: 1.1s;
+}
+
+
